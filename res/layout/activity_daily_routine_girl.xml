@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DailyRoutineGirl" 
+   android:background="#003366"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="417dp"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/listroutinegirl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+    </ListView>
+</LinearLayout>
+
+<LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/donergirl"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="100dp"
+        android:text="Done" 
+        android:textColor="#FFFF"
+    />
+    <Button 
+        android:id="@+id/resetrgirl"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Reset"
+        android:textColor="#FFFF"
+        />
+    
+
+</LinearLayout>
+</LinearLayout>

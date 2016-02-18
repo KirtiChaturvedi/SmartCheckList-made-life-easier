@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.minorproject"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.minorproject.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.minorproject.HomePageMain"
+            android:label="@string/title_activity_home_page_main" >
+        </activity>
+        <activity
+            android:name="com.example.minorproject.Aboutus"
+            android:label="@string/title_activity_aboutus" >
+        </activity>
+        <activity
+            android:name="com.example.minorproject.Aboutapp"
+            android:label="@string/title_activity_aboutapp" >
+        </activity>
+        <activity
+            android:name="com.example.minorproject.GirlActivity"
+            android:label="@string/title_activity_girl" >
+        </activity>
+        <activity
+            android:name="com.example.minorproject.BoyActivity"
+            android:label="@string/title_activity_boy" >
+        </activity>
+        <activity
+            android:name="com.example.minorproject.ShoppingBoy"
+            android:label="@string/title_activity_shopping_boy" >
+        </activity>
+        <activity
+            android:name="com.example.minorproject.DailyRoutineBoy"
+            android:label="@string/title_activity_daily_routine_boy" >
+        </activity>
+        <activity
+            android:name="com.example.minorproject.ShoppingGirl"
+            android:label="@string/title_activity_shopping_girl" >
+        </activity>
+        <activity
+            android:name="com.example.minorproject.DailyRoutineGirl"
+            android:label="@string/title_activity_daily_routine_girl" >
+        </activity>
+        <activity
+            android:name="com.example.minorproject.Reminder"
+            android:label="@string/title_activity_reminder" >
+        </activity>
+        <activity
+            android:name="com.example.minorproject.BirthService"
+            android:label="@string/title_activity_birth_service" >
+        </activity>
+        <activity
+            android:name="com.example.minorproject.AddBirthday"
+            android:label="@string/title_activity_add_birthday" >
+        </activity>
+        <activity
+            android:name="com.example.minorproject.Settings"
+            android:label="@string/title_activity_settings" >
+        </activity>
+        <activity
+            android:name="com.example.minorproject.BashCalendar"
+            android:label="@string/title_activity_bash_calendar" >
+        </activity>
+        <activity
+            android:name="com.example.minorproject.Search"
+            android:label="@string/title_activity_search" >
+        </activity>
+        <activity
+            android:name="com.example.minorproject.Upcoming"
+            android:label="@string/title_activity_upcoming" >
+        </activity>
+        <activity
+            android:name="com.example.minorproject.MyWakefulReceiver"
+            android:label="@string/title_activity_my_wakeful_receiver" >
+        </activity>
+        <activity
+            android:name="com.example.minorproject.CustomList"
+            android:label="@string/title_activity_custom_list" >
+        </activity>
+        <activity
+            android:name="com.example.minorproject.Details"
+            android:label="@string/title_activity_details" >
+        </activity>
+        <activity
+            android:name="com.example.minorproject.EditReminder"
+            android:label="@string/title_activity_edit_reminder" >
+        </activity>
+        <activity
+            android:name="com.example.minorproject.Contact"
+            android:label="@string/title_activity_contact" >
+        </activity>
+    </application>
+
+</manifest>

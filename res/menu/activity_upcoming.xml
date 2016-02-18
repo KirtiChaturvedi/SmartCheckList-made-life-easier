@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+  <item android:id="@+id/editup" android:title="Edit Reminder"/>
+    <item android:id="@+id/searchup" android:title="Search"/>
+     <item android:id="@+id/deleteup" android:title="Delete all "/>
+     <item android:id="@+id/deleup" android:title="Delete Reminder"/>
+      <item android:id="@+id/addnewup" android:title="Add New Reminder"/>
+
+
+</menu>

@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+   
+   <item android:id="@+id/editdetailbdy" android:title="Edit Reminder"/>
+    <item android:id="@+id/deletedetailbdy" android:title="Delete Reminder"/>
+     <item android:id="@+id/calldetailbdy" android:title="Call"/>
+     <item android:id="@+id/newdetailbdy" android:title="Add New Birthday"/>
+
+</menu>

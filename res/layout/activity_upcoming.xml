@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/view"
+    tools:context=".Upcoming" 
+     android:keepScreenOn="true">
+
+    <ListView
+        android:id="@+id/listViewup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:divider="#000000"
+        android:dividerHeight="0.01dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+         >
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="Upcoming Birthdays..."
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#00248F"
+        android:fontFamily="cursive"
+          android:textStyle="bold|italic"
+        android:textSize="27dp"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/listView1"
+        android:background="#000000" />
+
+</RelativeLayout>

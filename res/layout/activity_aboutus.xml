@@ -1,0 +1,96 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Aboutus" 
+    android:background="#801A00"
+    android:orientation="vertical">
+     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textSize="10dp"
+        android:textColor="#000000"
+        android:text="Currently pursuing btech from skit we r students of computer science and engineering...." />
+
+   
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView 
+            
+            android:paddingTop="179dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/renu"
+            />
+        <TextView 
+            android:paddingTop="184dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RENU MERTIYA"
+            android:textColor="#000000"/>
+        
+    </LinearLayout>
+     <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView 
+            
+            android:paddingTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/richa"
+            />
+        <TextView 
+            android:paddingTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RICHA SINGH"
+            android:textColor="#000000"/>
+        
+    </LinearLayout>
+     <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <ImageView 
+           
+            android:paddingTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/pooja"
+            />
+        <TextView 
+            android:paddingTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="POOJA GARG"
+            android:textColor="#000000"/>
+    </LinearLayout>
+     <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView 
+            
+            android:paddingTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/kirti"
+
+            />
+        <TextView 
+            android:paddingTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KIRTI CHATURVEDI"
+            android:textColor="#000000"/>
+        
+    </LinearLayout>
+
+</LinearLayout>

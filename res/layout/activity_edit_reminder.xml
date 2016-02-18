@@ -1,0 +1,188 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".EditReminder" 
+     android:keepScreenOn="true">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="cursive"
+        android:paddingTop="2dp"
+        android:text="Edit Birthday"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#A319D1"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="23dp"
+        android:layout_toRightOf="@+id/imageView1"
+        android:ems="10"
+        android:hint="First Name"
+        android:inputType="textCapWords"
+         />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView2"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignRight="@+id/imageViewpic"
+        android:layout_marginTop="45dp"
+        android:ems="10"
+        android:hint="Email (Optional)"
+        android:inputType="textEmailAddress" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/editText1"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/asdp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_alignRight="@+id/editText1"
+        android:layout_below="@+id/editText1"
+        android:ems="10"
+        android:hint="Last Name"
+        android:inputType="textCapWords" >
+
+        <requestFocus />
+    </EditText>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_below="@+id/editText2"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/email" />
+
+    <ImageView
+        android:id="@+id/imageViewpic"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/editText1"
+        android:layout_marginRight="25dp"
+     
+        android:src="@drawable/asdddd" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/p1" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText3"
+        android:layout_alignRight="@+id/editText3"
+        android:layout_alignTop="@+id/imageView3"
+        android:ems="10"
+        android:hint="Contact no."
+        android:inputType="phone" 
+       />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView3"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/imageView3"
+        android:src="@drawable/c3" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+        android:layout_alignLeft="@+id/imageView5"
+        android:layout_below="@+id/imageView5"
+        android:src="@drawable/a1" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView4"
+        android:layout_alignLeft="@+id/editText4"
+        android:layout_alignRight="@+id/editText4"
+        android:ems="10"
+        android:hint="dd/mm/yyyy" 
+        android:editable="false"
+        android:inputType="none"
+      />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView4"
+        android:layout_alignLeft="@+id/editText5"
+        android:layout_alignRight="@+id/editText2"
+        android:editable="false"
+        android:ems="10"
+        android:hint="Alarm Time"
+        android:inputType="none" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button1"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_toRightOf="@+id/button1"
+        android:text="Cancel"
+        android:layout_marginLeft="9dp"
+        android:background="#CC7EE5"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="17dp"
+        android:layout_toRightOf="@+id/imageView4"
+        android:background="#CC7EE5"
+        android:text="Edit"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editText6"
+        android:layout_alignLeft="@+id/imageViewpic"
+        android:layout_below="@+id/editText5" />
+    
+</RelativeLayout>
